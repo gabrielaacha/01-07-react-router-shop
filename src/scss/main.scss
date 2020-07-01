@@ -1,0 +1,86 @@
+// your scss files should import here 💪🏻
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  //   display: inline-block;
+  //   background-color: green($color: #000000);
+}
+
+.mainMenu li {
+  background-color: pink;
+  list-style: none;
+  color: white;
+  display: inline-block;
+  // justify-content: space-between;
+  margin: 2rem;
+  padding: 1rem 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.mainMenu li:hover {
+  background-color: green;
+}
+
+.Products {
+  list-style: none;
+  background-color: blue;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+  margin: 2rem 0rem;
+  // justify-content: right;
+}
+
+.cards-container {
+  background-color: green;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+// .test {
+//   justify-content: center;
+//   //   align-items: center;
+//   width: 50%;
+//   border: red 1px solid;
+//   display: flex;
+//   flex-wrap: wrap;
+// }
+
+// .test li {
+//   background-color: blue;
+//   margin: 2rem;
+//   padding: 1rem 2rem;
+//   width: 10rem;
+//   list-style-type: none;
+// }
+
+.Container {
+  display: flex;
+}
+
+.Product {
+  width: 30%;
+  margin: 1px;
+}
+
+.main-container {
+  width: 90vw;
+  background-color: grey;
+  border: red 2px solid;
+  padding: 2rem;
+}
+
+.card {
+  width: 15rem;
+  margin: 1rem;
+}
+
+.component-main-container {
+  padding: 1rem 0rem;
+}
